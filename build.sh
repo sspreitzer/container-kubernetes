@@ -3,7 +3,7 @@
 set -x
 set -e
 
-yum install -y kubeadm-${VERSION} kubelet-${VERSION} kubectl-${VERSION}
+yum install -y kubeadm-${VERSION} kubelet-${VERSION} kubectl-${VERSION} ipset
 rm -rf /var/cache/yum
 
 cd /tmp
